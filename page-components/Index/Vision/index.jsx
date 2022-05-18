@@ -5,8 +5,8 @@ const Vision = () => {
 		<>
 			<section className=' text-gray-400 body-font min-h-screen'>
 				<div className='container mx-auto flex px-5  md:flex-row flex-col items-center min-h-screen'>
-					<div className='lg:w-1/2 lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
-						<h1 className=' section_title text-[#eff2a6] title-font text-5xl s:text-4xl text-3xl mb-8 font-medium'>
+					<div className='lg:w-1/2 md:w-1/2 lg:flex-grow lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
+						<h1 className=' section_title text-[#eff2a6] title-font text-5xl s:text-4xl mb-8 font-medium'>
 							OUR VISION
 						</h1>
 						<button className='flex gap-2 items-center border-none py-2 px-5 border rounded-full text-black bg-[#eff2a6] mb-4'>

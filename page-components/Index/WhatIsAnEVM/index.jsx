@@ -7,7 +7,7 @@ const WhatIsAnEVM = () => {
 			<section class='text-gray-400 body-font min-h-screen'>
 				<div class='container px-5 py-24 mx-auto'>
 					<div class='flex flex-col text-center w-full mb-4'>
-						<h1 className=' section_title text-[#eff2a6] title-font text-5xl s:text-4xl text-3xl mb-8 font-medium'>
+						<h1 className=' section_title text-[#eff2a6] title-font lg:text-5xl text-3xl mb-8 font-medium'>
 							WHAT IS AN EVM
 						</h1>
 						<p class='lg:w-2/3 mx-auto leading-relaxed text-base'>

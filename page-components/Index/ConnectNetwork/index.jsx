@@ -5,9 +5,9 @@ const ConnectNetwork = () => {
 		<>
 			<section className='text-gray-400 body-font min-h-screen'>
 				<div className='container px-5 py-24 mx-auto flex flex-wrap'>
-					<div className=' lg:py-6 mb-10 lg:w-1/2 lg:pl-12 lg:text-left'>
+					<div className='lg:w-1/2 md:w-1/2 lg:py-6 mb-10 lg:pl-12 lg:text-left border-1'>
 						<div className='flex flex-col  mb-8'>
-							<h1 className=' section_title text-[#eff2a6] title-font text-5xl s:text-4xl text-3xl mb-8 font-medium'>
+							<h1 className=' section_title text-[#eff2a6] title-font text-5xl s:text-4xl mb-8 font-medium'>
 								THE CONNECT NETWORK
 							</h1>
 							<p className='font-bold text-white'>
@@ -106,7 +106,7 @@ const ConnectNetwork = () => {
 							</div>
 						</div>
 					</div>
-					<div className='lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden'>
+					<div className='lg:w-1/2 md:w-1/2 mb-10 lg:mb-0 flex items-center'>
 						<video autoPlay muted width='100%' height=''>
 							<source src='assets/Videos/05.mp4' type='video/mp4' />
 						</video>
