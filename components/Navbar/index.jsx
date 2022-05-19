@@ -1,20 +1,22 @@
 // import React from 'react';
+import Image from 'next/image';
 import styles from './navbar.module.scss';
+Image
 // import logo from '../../../assets/images/SVG/white-logo.svg';
 const Header = () => {
 	return (
 		<>
 			<header className={styles.header + ' text-gray-400 header body-font fixed w-full '}>
 				<div className='container mx-auto flex flex-wrap flex-col md:flex-row items-center'>
-					<div className='flex items-center gap-2 ml-5'>
+					<div className='flex items-center gap-2 ml-0 md:ml-5 md:mt-0 mt-3 '>
 						<button className='btn'>
 							<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'>
 								<path fill='none' d='M0 0h24v24H0z' />
 								<path d='M16 18v2H5v-2h11zm5-7v2H3v-2h18zm-2-7v2H8V4h11z' />
 							</svg>
 						</button>
-						<a className='title-font font-medium items-center text-white mb-4 md:mb-0'>
-							<img src='/assets/images/SVG/white-logo.svg' alt='white-logo' />
+						<a className='title-font font-medium items-center text-white md:mb-0'>
+							<Image  src="/assets/images/SVG/white-logo.svg" width="120" height='40'/>
 						</a>
 					</div>
 					<nav className='md:ml-auto flex flex-wrap gap-6 bg-gray-900 items-center text-base justify-center px-6'>

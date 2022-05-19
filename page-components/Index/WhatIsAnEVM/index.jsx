@@ -4,13 +4,15 @@ import React from 'react';
 const WhatIsAnEVM = () => {
 	return (
 		<>
-			<section class='text-gray-400 body-font min-h-screen'>
+			<section class=' body-font min-h-screen'>
 				<div class='container px-5 py-24 mx-auto'>
 					<div class='flex flex-col text-center w-full mb-4'>
+						<div className='flex items-center justify-center'>
 						<h1 className=' section_title text-[#eff2a6] title-font lg:text-5xl text-3xl mb-8 font-medium'>
 							WHAT IS AN EVM
 						</h1>
-						<p class='lg:w-2/3 mx-auto leading-relaxed text-base'>
+						</div>
+						<p class='lg:w-2/3 mx-auto font-light text-gray-300 '>
 							Ethereum Virtual Machine (EVM) is a computation engine which acts like a decentralized
 							computer that has millions of executable projects. It acts as the virtual machine which is
 							the bedrock of Ethereum's entire operating structure.

@@ -2,15 +2,15 @@ const Technology = () => {
   return (
     <>
       <section class="text-gray-400 body-font min-h-screen">
-        <div className="container mx-auto flex px-5  md:flex-row flex-col items-center min-h-screen ">
-          <div className="lg:w-2/5 md:w-1/2 w-full p-5">
-            <div className="flex">
-              <h1 className=" section_title text-[#eff2a6] title-font text-5xl s:text-4xl mb-8 font-medium">
+        <div className="container px-5 py-24 mx-auto flex md:flex-row flex-col items-center min-h-screen ">
+          <div className="lg:w-2/5 md:w-1/2 w-full p-5 md:text-left text-center">
+            <div className="flex md:justify-start justify-center">             
+              <h1 className=" section_title text-[#eff2a6] title-font lg:text-5xl text-3xl mb-8 font-medium">
               TECHNOLOGY
               </h1>
             </div>
 
-            <p className="mb-8 leading-relaxed">
+            <p className="mb-8 font-light text-gray-300">
               Providing a firm base for the people of the internet Connect
               brings you the necessary components and tools to be part of an
               unlimited economy and society Connect is a platform where any
@@ -19,7 +19,7 @@ const Technology = () => {
               and flexibility) and Ethereum (interconnectivity, and developer
               experience) 
             </p>
-            <p>These blockchains are also in compliance with the
+            <p className="font-light text-gray-300">These blockchains are also in compliance with the
               existing Ethereum tools such as Metamask MyCrypto Remix and
               others, and can make various transactions between themselves using
               Ethereum</p>

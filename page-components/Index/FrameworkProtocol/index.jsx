@@ -1,38 +1,93 @@
 const FrameworkProtocol = () => {
-    return (
-      <>
-        <section class="text-gray-400 body-font min-h-screen">
-          <div className="container mx-auto flex px-5  md:flex-row flex-col items-center min-h-screen ">
-            <div className="lg:w-2/5 md:w-1/2 w-full p-5">
-              <div className="flex">
-                <h1 className=" section_title text-[#eff2a6] title-font text-5xl s:text-4xl mb-8 font-medium">
-                TECHNOLOGY
-                </h1>
+  return (
+    <>
+      <section class="text-gray-400 body-font min-h-screen">
+        <div className="container mx-auto flex px-5 flex-col py-24 items-center justify-center min-h-screen ">
+          <div className=" w-full p-5 flex px-5 flex-col md:flex-row items-center ">
+            <div className=" md:w-1/2 w-full border">
+              <div className="flex flex-col">
+                <div className="flex">
+                  <h1 className=" section_title text-[#eff2a6] title-font lg:text-5xl text-3xl mb-8 font-medium">
+                    FRAMEWORK
+                  </h1>
+                </div>
               </div>
-  
-              <p className="mb-8 leading-relaxed">
-                Providing a firm base for the people of the internet Connect
-                brings you the necessary components and tools to be part of an
-                unlimited economy and society Connect is a platform where any
-                project can have its dedicated, optimized instance of Ethereum
-                which combines the best of independent blockchains (scalability,
-                and flexibility) and Ethereum (interconnectivity, and developer
-                experience) 
-              </p>
-              <p>These blockchains are also in compliance with the
-                existing Ethereum tools such as Metamask MyCrypto Remix and
-                others, and can make various transactions between themselves using
-                Ethereum</p>
+
+              <div className="flex gap-5 flex-col w-full ">
+                <div className=" flex gap-4 w-full ">
+                  <img
+                    className="h-8 rounded w-8 object-cover object-center "
+                    src="/assets/images/SVG/tick.svg"
+                    alt="tick"
+                  />
+                  <p className="font-light text-gray-300">
+                    One click deployment of Ethereum compatible blockchain
+                    templates.
+                  </p>
+                </div>
+                <div className=" flex gap-4 w-full ">
+                  <img
+                    className="h-8 rounded w-8 object-cover object-center "
+                    src="/assets/images/SVG/tick.svg"
+                    alt="tick"
+                  />
+                  <p className="font-light text-gray-300">
+                    Increasing module sets (pluggable consensus, staking,
+                    governance, EVM/ Evasm execution environments, dispute
+                    resolvers, etc for developers to create custom blockchains
+                  </p>
+                </div>
+              </div>
             </div>
-            <div className="lg:w-3/5 md:w-1/2 w-full md:mt-0 mt-10">
-              <video autoPlay muted width="100%" height="">
-                <source src="assets/Videos/06.mp4" type="video/mp4" />
-              </video>
+            <div className="md:w-1/2 w-full  border p-4">
+              <div className="border relative">
+              <img className="" src='/assets/images/SVG/Framework-Icon-01.svg' alt='white-logo' />
+
+              <img className="absolute bottom-0 " src='/assets/images/SVG/Framework-Icon-02.svg' alt='white-logo' />
+              </div>
             </div>
           </div>
-        </section>
-      </>
-    )
-  }
-  
-  export default FrameworkProtocol
+          <div className=" w-full p-5 flex px-5 flex-col md:flex-row items-center ">
+            <div className="md:w-1/2 w-full border">
+              <div className="flex flex-col">
+                <div className="flex">
+                  <h1 className=" section_title text-[#eff2a6] title-font lg:text-5xl text-3xl mb-8 font-medium">
+                  PROTOCOL
+                  </h1>
+                </div>
+              </div>
+
+              <div className="flex gap-5 flex-col w-full ">
+                <div className=" flex gap-4 w-full ">
+                  <img
+                    className="h-8 rounded w-8 object-cover object-center "
+                    src="/assets/images/SVG/tick.svg"
+                    alt="tick"
+                  />
+                  <p className="font-light text-gray-300">
+                  Interconnectivity of activities between blockchains in Connect, as well as between blockchains in Connect and Ethereum
+                  </p>
+                </div>
+                <div className=" flex gap-4 w-full ">
+                  <img
+                    className="h-8 rounded w-8 object-cover object-center "
+                    src="/assets/images/SVG/tick.svg"
+                    alt="tick"
+                  />
+                  <p className="font-light text-gray-300">
+                  Bespoke security service as available on Ethereum or by various trusted validators
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="md:w-1/2 w-full  border p-4">
+            
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  )
+}
+
+export default FrameworkProtocol

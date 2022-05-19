@@ -6,8 +6,10 @@ import ConnectNetwork from './ConnectNetwork/index';
 import Features from './Features';
 import Technology from './Technology';
 import ConnectFoundation from './ConnectFoundation';
+import FrameworkProtocol from './FrameworkProtocol';
 import StandAloneChains from './StandAloneChains';
 import SecuredChains from './SecuredChains';
+import Footer from '../../components/Footer';
 
 const Index = () => {
 	return (
@@ -19,7 +21,7 @@ const Index = () => {
 			<ConnectNetwork />
 			<Features/>
 			<Technology/>
-			
+			<FrameworkProtocol/>
 			<StandAloneChains/>
 			<SecuredChains/>
 			<ConnectFoundation/>

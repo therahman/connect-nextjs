@@ -1,11 +1,15 @@
+import Image from "next/image"
+
+
+
 const SecuredChains = () => {
     return (
       <>
         <section class="text-gray-400 body-font min-h-screen">
-          <div className="container mx-auto flex px-5  md:flex-row flex-col items-center min-h-screen ">
+          <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center min-h-screen ">
             <div className="lg:w-1/2 md:w-1/2 w-full p-5">
               <div className="flex">
-                <h1 className=" section_title text-[#fff] title-font text-4xl s:text-4xl mb-8 font-medium">
+                <h1 className=" section_title text-[#fff] title-font text-3xl lg:text-4xl mb-8 font-medium">
                 SECURED CHAINS
                 </h1>
               </div>
@@ -16,7 +20,7 @@ const SecuredChains = () => {
               <div className="flex gap-3 w-full ">
                 <div className=" flex gap-3 w-1/2 ">
                   <img
-                    class="h-10 rounded w-10 object-cover object-center "
+                    className="h-8 rounded w-8 object-cover object-center "
                     src="/assets/images/SVG/tick.svg"
                     alt="tick"
                   />
@@ -24,7 +28,7 @@ const SecuredChains = () => {
                 </div>
                 <div className=" flex gap-3 w-1/2 ">
                   <img
-                    class="h-10 rounded w-10 object-cover object-center "
+                    className="h-8 rounded w-8 object-cover object-center "
                     src="/assets/images/SVG/tick.svg"
                     alt="tick"
                   />
@@ -33,11 +37,15 @@ const SecuredChains = () => {
               </div>
             </div>
             <div className="lg:w-1/2 md:w-1/2 w-full md:mt-0 mt-10">
-              <img
-                class="h-full rounded w-full object-cover object-center "
+              
+              <div className="flex items-center justify-center md:p-0 p-8  ">
+              <Image
                 src="/assets/images/SVG/Secured-Chains.svg"
                 alt="Secured-Chains"
+                width={600}
+                height={600}
               />
+            </div>
             </div>
           </div>
         </section>
