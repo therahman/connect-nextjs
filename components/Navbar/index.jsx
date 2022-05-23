@@ -19,7 +19,8 @@ const Header = () => {
 							<Image  src="/assets/images/SVG/white-logo.svg" width="120" height='40'/>
 						</a>
 					</div>
-					<nav className='md:ml-auto flex flex-wrap gap-6 bg-gray-900 items-center text-base justify-center px-6'>
+					<nav className='md:ml-auto flex flex-wrap gap-6 bg-gray-900 items-center text-base justify-center '>
+						<div className='flex flex-wrap gap-6 px-6'>
 						<a className=' hover:text-white flex flex-wrap gap-1 items-center'>
 							<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'>
 								<path fill='none' d='M0 0h24v24H0z' />
@@ -41,6 +42,7 @@ const Header = () => {
 							</svg>
 							BUY NOW
 						</a>
+						</div>
 					</nav>
 				</div>
 			</header>

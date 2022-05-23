@@ -3,8 +3,8 @@ import React from 'react';
 const Vision = () => {
 	return (
 		<>
-			<section className=' text-gray-400 body-font min-h-screen'>
-				<div className='container mx-auto flex px-5  md:flex-row flex-col items-center min-h-screen'>
+			<section className=' text-gray-400 body-font min-h-screen ' id='vision'>
+				<div className='container mx-auto flex lg:px-32 px-5  md:flex-row flex-col items-center min-h-screen'>
 					<div className='lg:w-1/2 md:w-1/2 lg:flex-grow lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
 						<h1 className=' section_title text-[#eff2a6] title-font lg:text-5xl text-3xl mb-8 font-medium'>
 							OUR VISION
@@ -27,8 +27,8 @@ const Vision = () => {
 							efficiency A world where communities can experience borderless success
 						</p>
 					</div>
-					<div className='lg:w-1/2 md:w-1/2 '>
-						<video autoPlay muted width='100%' height=''>
+					<div className='md:w-1/2 w-full flex relative items-center justify-center md:min-h-screen min-h-[40vh] overflow-hidden'>
+						<video className='scale-[1] md:scale-[1.4]  absolute' autoPlay muted width='100%' height=''>
 							<source src='assets/Videos/04.mp4' type='video/mp4' />
 						</video>
 					</div>

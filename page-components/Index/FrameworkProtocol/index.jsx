@@ -1,12 +1,12 @@
 import Image from 'next/image';
-
+import styles from './framework.module.scss';
 const FrameworkProtocol = () => {
 	return (
 		<>
-			<section class='text-gray-400 body-font min-h-screen  '>
-				<div className='container mx-auto flex px-5 flex-col py-24 items-center justify-center min-h-screen '>
+			<section class='text-gray-400 body-font min-h-screen ' id='framework-protocol'>
+				<div className='container mx-auto flex lg:px-32 px-5 flex-col py-24 items-center justify-center min-h-screen '>
 					<div className=' w-full p-5 flex px-5 flex-col md:flex-row items-center '>
-						<div className=' md:w-1/2 w-full border'>
+						<div className=' md:w-1/2 w-full '>
 							<div className='flex flex-col'>
 								<div className='flex'>
 									<h1 className=' section_title text-[#eff2a6] title-font lg:text-5xl text-3xl mb-8 font-medium'>
@@ -15,7 +15,7 @@ const FrameworkProtocol = () => {
 								</div>
 							</div>
 
-							<div className='flex gap-5 flex-col w-full '>
+							<div className='flex gap-5 flex-col w-full md:pr-12'>
 								<div className=' flex gap-4 w-full '>
 									<img
 										className='h-8 rounded w-8 object-cover object-center '
@@ -40,20 +40,19 @@ const FrameworkProtocol = () => {
 								</div>
 							</div>
 						</div>
-						<div className='md:w-1/2 w-full  border p-4'>
-							<div className='w-[150px] h-[300px] border relative'>
-								<div className='absolute'>
-									<Image src='/assets/images/SVG/Framework-Icon-01.svg' width={200} height={400} />
+						<div className='   p-4'>
+							<div className={`${styles.framework} `}>
+								<div className={`${styles.framework_item1}`}>
+									<Image src='/assets/images/SVG/framework-icon-01.svg' width={200} height={400} />
 								</div>
-
-								<div className='border w-full absolute'>
-									<Image src='/assets/images/SVG/Framework-Icon-02.svg' width={200} height={400} />
+								<div className={`${styles.framework_item2}`}>
+									<Image src='/assets/images/SVG/framework-icon-02.svg' width={200} height={400} />
 								</div>
 							</div>
 						</div>
 					</div>
-					<div className=' w-full p-5 flex px-5 flex-col md:flex-row items-center '>
-						<div className='md:w-1/2 w-full border'>
+					<div className=' w-full p-5 flex px-5 flex-col md:flex-row items-center justify-end '>
+						<div className='md:w-1/2 w-full '>
 							<div className='flex flex-col'>
 								<div className='flex'>
 									<h1 className=' section_title text-[#eff2a6] title-font lg:text-5xl text-3xl mb-8 font-medium'>
@@ -62,7 +61,7 @@ const FrameworkProtocol = () => {
 								</div>
 							</div>
 
-							<div className='flex gap-5 flex-col w-full '>
+							<div className='flex gap-5 flex-col w-full md:pr-12'>
 								<div className=' flex gap-4 w-full '>
 									<img
 										className='h-8 rounded w-8 object-cover object-center '
@@ -87,7 +86,16 @@ const FrameworkProtocol = () => {
 								</div>
 							</div>
 						</div>
-						<div className='md:w-1/2 w-full  border p-4'></div>
+						<div className='   p-4'>
+						<div className={`${styles.protocol} `}>
+								<div className={`${styles.protocol_item1}`}>
+									<Image src='/assets/images/SVG/protocol-icon-01.svg' width={200} height={400} />
+								</div>
+								<div className={`${styles.protocol_item2}`}>
+									<Image src='/assets/images/SVG/protocol-icon-02.svg' width={200} height={400} />
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>

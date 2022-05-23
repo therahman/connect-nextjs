@@ -1,0 +1,49 @@
+
+.framework{
+    width: 150px;
+    height: 300px;
+    position :relative;
+    &:hover{
+        .framework_item2{
+            height: auto;
+            transform-origin: bottom;
+            overflow: auto;
+            
+        }
+    }
+}
+.framework_item1{
+    position: absolute;
+}
+.framework_item2{
+    position: absolute;
+    transform: translateY(0px);
+    height: 0;
+    overflow: hidden;
+    transition: height 0.4s ;
+}
+
+.protocol{
+    width: 200px;
+    height: 300px;
+    position :relative;
+    &:hover{
+        .protocol_item2{
+            height: auto;
+            transform-origin: bottom top;
+            
+        }
+    }
+}
+.protocol_item1{
+    position: absolute;
+}
+.protocol_item2{
+    position: absolute;
+    transform: translateY(0px);
+    height: 0;
+    overflow: hidden;
+    transition: height 0.2s ;
+    
+
+}

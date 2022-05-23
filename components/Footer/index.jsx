@@ -3,10 +3,10 @@ const Footer = () => {
 	return (
 		<>
 			<footer className='text-gray-400 body-font border-t'>
-				<div className='container px-5 py-12 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col'>
+				<div className='container lg:px-32 px-5 py-12 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col'>
 					<div className='w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10'>
 						<div>
-							<h2 className='title-font font-medium text-white tracking-widest text-sm mb-3'>PAGES</h2>
+							<h2 className='title-font font-medium text-white tracking-widest text-sm mb-3 font-[Poppins]'>SOCIAL</h2>
 							<div className='flex gap-3 items-center justify-center md:justify-start '>
 								<a
 									href='#'
@@ -70,88 +70,70 @@ const Footer = () => {
 								</a>
 							</div>
 						</div>
-						{/* <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                className="w-10 h-10 text-white p-2 bg-yellow-500 rounded-full"
-                viewBox="0 0 24 24"
-              >
-                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-              </svg>
-              <span className="ml-3 text-xl">Tailblocks</span>
-            </a>
-            <p className="mt-2 text-sm text-gray-500">
-              Air plant banjo lyft occupy retro adaptogen indego
-            </p> */}
 					</div>
 					<div className='flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first'>
 						<div className='lg:w-1/4 md:w-1/2 w-full px-6'>
-							<h2 className='title-font font-medium text-white tracking-widest text-sm mb-3'>PAGES</h2>
+							<h2 className='title-font font-[Poppins] font-medium text-white tracking-widest text-sm mb-3'>PAGES</h2>
 							<nav className='list-none mb-10'>
 								<li className='py-2'>
-									<a className='text-gray-400 hover:text-white '>Home</a>
+									<a className='text-gray-400 hover:text-white font-light'>Home</a>
 								</li>
 								<li className='py-2'>
-									<a className='text-gray-400 hover:text-white '>About</a>
+									<a className='text-gray-400 hover:text-white font-light '>About</a>
 								</li>
 								<li className='py-2'>
-									<a className='text-gray-400 hover:text-white '>EVM</a>
+									<a className='text-gray-400 hover:text-white font-light '>EVM</a>
 								</li>
 								<li className='py-2'>
-									<a className='text-gray-400 hover:text-white'>Vision</a>
+									<a className='text-gray-400 hover:text-white font-light'>Vision</a>
 								</li>
 								<li className='py-2'>
-									<a className='text-gray-400 hover:text-white'>Positioning</a>
+									<a className='text-gray-400 hover:text-white font-light'>Positioning</a>
 								</li>
 							</nav>
 						</div>
 						<div className='lg:w-1/4 md:w-1/2 w-full px-6'>
-							<h2 className='title-font font-medium text-white tracking-widest text-sm mb-3'>OTHER</h2>
+							<h2 className='title-font font-[Poppins] font-medium text-white tracking-widest text-sm mb-3'>OTHER</h2>
 							<nav className='list-none mb-10'>
 								<li className='py-2'>
-									<a className='text-gray-400 hover:text-white'>Features</a>
+									<a className='text-gray-400 hover:text-white font-light'>Features</a>
 								</li>
 								<li className='py-2'>
-									<a className='text-gray-400 hover:text-white'>Technology</a>
+									<a className='text-gray-400 hover:text-white font-light'>Technology</a>
 								</li>
 							</nav>
 						</div>
 						<div className='lg:w-1/4 md:w-1/2 w-full px-6'>
-							<h2 className='title-font font-medium text-white tracking-widest text-sm mb-3'>CONTACT</h2>
+							<h2 className='title-font font-[Poppins] font-medium text-white tracking-widest text-sm mb-3'>CONTACT</h2>
 							<nav className='list-none mb-10'>
 								<li className='py-2'>
-									<a className='text-gray-400 hover:text-white'>Email</a>
+									<a className='text-gray-400 hover:text-white font-light'>Email</a>
 								</li>
 								<li className='py-2'>
-									<a className='text-gray-400 hover:text-white'>Linkdin</a>
+									<a className='text-gray-400 hover:text-white font-light'>Linkdin</a>
 								</li>
 							</nav>
 						</div>
 						<div className='lg:w-1/4 md:w-1/2 w-full px-6'>
-							<h2 className='title-font font-medium text-white tracking-widest text-sm mb-3'>BLOG</h2>
+							<h2 className='title-font font-[Poppins] font-medium text-white tracking-widest text-sm mb-3'>BLOG</h2>
 							<nav className='list-none mb-10'>
 								<li className='py-2'>
-									<a className='text-gray-400 hover:text-white'>https://myblog.org</a>
+									<a className='text-gray-400 hover:text-white font-light'>https://myblog.org</a>
 								</li>
 								<li className='py-2'>
-									<a className='text-gray-400 hover:text-white'>https://www.blog.name</a>
+									<a className='text-gray-400 hover:text-white font-light'>https://www.blog.name</a>
 								</li>
 								<li className='py-2'>
-									<a className='text-gray-400 hover:text-white'>https://www.blog.name</a>
+									<a className='text-gray-400 hover:text-white font-light'>https://www.blog.name</a>
 								</li>
 							</nav>
 						</div>
 					</div>
 				</div>
-				<div className=' bg-opacity-75'>
-					<div className='container mx-auto py-4 px-5 flex flex-wrap  flex-col justify-between   items-center gap-4 sm:flex-row'>
+				<div className=' bg-opacity-75 '>
+					<div className='container mx-auto py-4 lg:px-32 px-5 flex flex-wrap  flex-col justify-between   items-center gap-4 sm:flex-row'>
 						<Image src='/assets/images/SVG/original-logo.svg' alt='original-logo' width={120} height={40} />
-						<button className=' rounded-full text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 text-sm'>
+						<button className='text-black rounded-full text-white bg-[#EFF2A6] border-0 py-2 px-10 focus:outline-none hover:bg-[#f2f595] text-sm'>
 							Button
 						</button>
 					</div>

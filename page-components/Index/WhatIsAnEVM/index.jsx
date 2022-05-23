@@ -4,7 +4,7 @@ import React from 'react';
 const WhatIsAnEVM = () => {
 	return (
 		<>
-			<section class=' body-font min-h-screen'>
+			<section class=' body-font min-h-screen' id='what-EVM'>
 				<div class='container px-5 py-24 mx-auto'>
 					<div class='flex flex-col text-center w-full mb-4'>
 						<div className='flex items-center justify-center'>
@@ -18,8 +18,8 @@ const WhatIsAnEVM = () => {
 							the bedrock of Ethereum's entire operating structure.
 						</p>
 					</div>
-					<div class='flex flex-wrap -m-4 text-center'>
-						<video autoPlay muted width='100%' height=''>
+					<div class='flex flex-wrap text-center justify-center mt-12 md:mt-0'>
+						<video autoPlay muted width='1200' height=''>
 							<source src='assets/Videos/03.mp4' type='video/mp4' />
 						</video>
 					</div>

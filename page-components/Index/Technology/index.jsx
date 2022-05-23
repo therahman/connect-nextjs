@@ -1,8 +1,8 @@
 const Technology = () => {
   return (
     <>
-      <section class="text-gray-400 body-font min-h-screen">
-        <div className="container px-5 py-24 mx-auto flex md:flex-row flex-col items-center min-h-screen ">
+      <section class="text-gray-400 body-font min-h-screen" id="technology">
+        <div className="container lg:px-32 px-5 py-24 mx-auto flex md:flex-row flex-col items-center min-h-screen ">
           <div className="lg:w-2/5 md:w-1/2 w-full p-5 md:text-left text-center">
             <div className="flex md:justify-start justify-center">             
               <h1 className=" section_title text-[#eff2a6] title-font lg:text-5xl text-3xl mb-8 font-medium">
@@ -24,8 +24,8 @@ const Technology = () => {
               others, and can make various transactions between themselves using
               Ethereum</p>
           </div>
-          <div className="lg:w-3/5 md:w-1/2 w-full md:mt-0 mt-10">
-            <video autoPlay muted width="100%" height="">
+          <div className="md:w-1/2 w-full flex relative items-center justify-center md:min-h-screen min-h-[50vh] overflow-hidden">
+            <video className='scale-[1] md:scale-[1.4]  absolute' autoPlay muted width="100%" height="">
               <source src="assets/Videos/06.mp4" type="video/mp4" />
             </video>
           </div>

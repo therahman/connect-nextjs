@@ -3,14 +3,14 @@ import React from 'react';
 const WhatIsConnect = () => {
 	return (
 		<>
-			<section className=' body-font min-h-screen'>
-				<div className='container mx-auto flex px-5  md:flex-row flex-col items-center min-h-screen'>
-					<div className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0'>
-						<video className='' autoPlay muted width='500px' height=''>
+			<section className=' body-font min-h-screen' id='what-connect'>
+				<div className='container mx-auto flex lg:px-32 px-5  md:flex-row flex-col items-center min-h-screen'>
+					<div className=' md:w-1/2 w-full mb-14 md:mb-0 flex items-center justify-center'>
+						<video className='' autoPlay muted width='400px' height=''>
 							<source src='assets/Videos/02.mp4' type='video/mp4' />
 						</video>
 					</div>
-					<div className='lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
+					<div className='lg:flex-grow md:w-1/2 w-full lg:pl-20 md:pl-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
 						<h1 className=' section_title text-[#eff2a6] title-font lg:text-5xl text-3xl mb-8 font-medium'>
 							WHAT IS CONNECT
 						</h1>

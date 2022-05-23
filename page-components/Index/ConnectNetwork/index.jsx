@@ -4,9 +4,9 @@ import Image from 'next/image';
 const ConnectNetwork = () => {
 	return (
 		<>
-			<section className='text-gray-400 body-font min-h-screen'>
-				<div className='container px-5 py-24 mx-auto flex flex-wrap'>
-					<div className='lg:w-1/2 md:w-1/2 lg:py-6 mb-10 lg:pl-12 lg:text-left border-1'>
+			<section className='text-gray-400 body-font min-h-screen' id='connect-network'>
+				<div className='container lg:px-32 px-5 py-24 mx-auto flex flex-wrap'>
+					<div className='lg:w-1/2 md:w-1/2 lg:py-6   lg:text-left border-1'>
 						<div className='flex flex-col  mb-8'>
 							<div className='flex'>
 								<h1 className=' section_title text-[#eff2a6] title-font lg:text-5xl text-3xl mb-8 font-medium'>

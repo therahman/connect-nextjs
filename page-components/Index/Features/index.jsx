@@ -3,8 +3,8 @@ import Image from 'next/image'
 const Features = () => {
   return (
     <>
-      <section className="text-gray-400 body-font min-h-screen">
-        <div className="container px-5 py-24 mx-auto">
+      <section className="text-gray-400 body-font min-h-screen" id='features'>
+        <div className="container lg:px-32 px-5  py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-4">
             <div className="flex items-center justify-center">
               <h1 className=" section_title text-[#eff2a6] title-font lg:text-5xl text-3xl mb-8 font-medium">
