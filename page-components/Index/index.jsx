@@ -15,18 +15,24 @@ const Index = () => {
 	return (
 		<>
 			<Nero />
-			<WhatIsConnect />
-			<WhatIsAnEVM />
+			<div className=' bg-shep'>
+				<WhatIsConnect />
+				<WhatIsAnEVM />
+			</div>
 			<Vision />
-			<ConnectNetwork />
-			<Features/>
-			<Technology/>
-			<FrameworkProtocol/>
-			<StandAloneChains/>
-			<SecuredChains/>
-			<ConnectFoundation/>
-			<Footer/>
+			<div className=' bg-shep'>
+				<ConnectNetwork />
+				<Features />
+			</div>
+			<Technology />
+			<div className='framework-bg bg-fixed'>
+				<FrameworkProtocol />
+				<StandAloneChains />
+				<SecuredChains />
+			</div>
 
+			<ConnectFoundation />
+			<Footer />
 		</>
 	);
 };
