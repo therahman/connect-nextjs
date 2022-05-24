@@ -5,7 +5,7 @@ const ConnectNetwork = () => {
 	return (
 		<>
 			<section className='text-gray-400 body-font min-h-screen' id='connect-network'>
-				<div className='container lg:px-32 px-5 py-24 mx-auto flex flex-wrap'>
+				<div className='container overflow-hidden relative lg:px-32 px-5 py-24 mx-auto flex flex-wrap'>
 					<div className='lg:w-1/2 md:w-1/2 lg:py-6   lg:text-left border-1'>
 						<div className='flex flex-col  mb-8'>
 							<div className='flex'>
@@ -89,6 +89,10 @@ const ConnectNetwork = () => {
 							<source src='assets/Videos/05.mp4' type='video/mp4' />
 						</video>
 					</div>
+					<h1 className='right-left moveing_text '>
+						OUR VISION OUR VISION OUR VISION OUR VISION OUR VISION OUR VISION OUR VISION OUR VISION OUR
+						VISION OUR VISION OUR VISION OUR VISION
+					</h1>
 				</div>
 			</section>
 		</>

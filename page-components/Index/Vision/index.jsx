@@ -4,7 +4,7 @@ const Vision = () => {
 	return (
 		<>
 			<section className=' text-gray-400 body-font min-h-screen ' id='vision'>
-				<div className='container mx-auto flex lg:px-32 px-5  md:flex-row flex-col items-center min-h-screen'>
+				<div className='container overflow-hidden relative mx-auto flex lg:px-32 px-5  md:flex-row flex-col items-center min-h-screen'>
 					<div className='lg:w-1/2 md:w-1/2 lg:flex-grow lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
 						<h1 className=' section_title text-[#eff2a6] title-font lg:text-5xl text-3xl mb-8 font-medium'>
 							OUR VISION
@@ -32,6 +32,10 @@ const Vision = () => {
 							<source src='assets/Videos/04.mp4' type='video/mp4' />
 						</video>
 					</div>
+					<h1 className='left-right moveing_text '>
+						OUR VISION OUR VISION OUR VISION OUR VISION OUR VISION OUR VISION OUR VISION OUR VISION OUR
+						VISION OUR VISION OUR VISION OUR VISION
+					</h1>
 				</div>
 			</section>
 		</>

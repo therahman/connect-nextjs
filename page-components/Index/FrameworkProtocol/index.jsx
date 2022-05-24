@@ -3,9 +3,9 @@ import styles from './framework.module.scss';
 const FrameworkProtocol = () => {
 	return (
 		<>
-			<section class='text-gray-400 body-font min-h-screen ' id='framework-protocol'>
+			<section className='text-gray-400 body-font min-h-screen ' id='framework-protocol'>
 				<div className='container mx-auto flex lg:px-32 px-5 flex-col py-24 items-center justify-center min-h-screen '>
-					<div className=' w-full p-5 flex px-5 flex-col md:flex-row items-center '>
+					<div className=' w-full flex flex-col md:flex-row items-center '>
 						<div className=' md:w-1/2 w-full '>
 							<div className='flex flex-col'>
 								<div className='flex'>
@@ -87,7 +87,7 @@ const FrameworkProtocol = () => {
 							</div>
 						</div>
 						<div className='   p-4'>
-						<div className={`${styles.protocol} `}>
+							<div className={`${styles.protocol} `}>
 								<div className={`${styles.protocol_item1}`}>
 									<Image src='/assets/images/SVG/protocol-icon-01.svg' width={200} height={400} />
 								</div>

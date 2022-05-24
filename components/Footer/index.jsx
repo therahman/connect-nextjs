@@ -1,12 +1,14 @@
 import Image from 'next/image';
-const Footer = () => {
+const Footer = (props) => {
 	return (
 		<>
-			<footer className='text-gray-400 body-font border-t'>
+			<footer className='text-gray-400 body-font border-t' ref={props.item}>
 				<div className='container lg:px-32 px-5 py-12 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col'>
 					<div className='w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10'>
 						<div>
-							<h2 className='title-font font-medium text-white tracking-widest text-sm mb-3 font-[Poppins]'>SOCIAL</h2>
+							<h2 className='title-font font-medium text-white tracking-widest text-sm mb-3 font-[Poppins]'>
+								SOCIAL
+							</h2>
 							<div className='flex gap-3 items-center justify-center md:justify-start '>
 								<a
 									href='#'
@@ -73,7 +75,9 @@ const Footer = () => {
 					</div>
 					<div className='flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first'>
 						<div className='lg:w-1/4 md:w-1/2 w-full px-6'>
-							<h2 className='title-font font-[Poppins] font-medium text-white tracking-widest text-sm mb-3'>PAGES</h2>
+							<h2 className='title-font font-[Poppins] font-medium text-white tracking-widest text-sm mb-3'>
+								PAGES
+							</h2>
 							<nav className='list-none mb-10'>
 								<li className='py-2'>
 									<a className='text-gray-400 hover:text-white font-light'>Home</a>
@@ -93,7 +97,9 @@ const Footer = () => {
 							</nav>
 						</div>
 						<div className='lg:w-1/4 md:w-1/2 w-full px-6'>
-							<h2 className='title-font font-[Poppins] font-medium text-white tracking-widest text-sm mb-3'>OTHER</h2>
+							<h2 className='title-font font-[Poppins] font-medium text-white tracking-widest text-sm mb-3'>
+								OTHER
+							</h2>
 							<nav className='list-none mb-10'>
 								<li className='py-2'>
 									<a className='text-gray-400 hover:text-white font-light'>Features</a>
@@ -104,7 +110,9 @@ const Footer = () => {
 							</nav>
 						</div>
 						<div className='lg:w-1/4 md:w-1/2 w-full px-6'>
-							<h2 className='title-font font-[Poppins] font-medium text-white tracking-widest text-sm mb-3'>CONTACT</h2>
+							<h2 className='title-font font-[Poppins] font-medium text-white tracking-widest text-sm mb-3'>
+								CONTACT
+							</h2>
 							<nav className='list-none mb-10'>
 								<li className='py-2'>
 									<a className='text-gray-400 hover:text-white font-light'>Email</a>
@@ -115,7 +123,9 @@ const Footer = () => {
 							</nav>
 						</div>
 						<div className='lg:w-1/4 md:w-1/2 w-full px-6'>
-							<h2 className='title-font font-[Poppins] font-medium text-white tracking-widest text-sm mb-3'>BLOG</h2>
+							<h2 className='title-font font-[Poppins] font-medium text-white tracking-widest text-sm mb-3'>
+								BLOG
+							</h2>
 							<nav className='list-none mb-10'>
 								<li className='py-2'>
 									<a className='text-gray-400 hover:text-white font-light'>https://myblog.org</a>
