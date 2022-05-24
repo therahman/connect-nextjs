@@ -6,7 +6,7 @@ const ConnectFoundation = () => {
 			<section className='text-gray-400 body-font min-h-screen' id='Connect-Foundation'>
 				<div className='container mx-auto flex lg:px-32 px-5  md:flex-row flex-col items-center min-h-screen '>
 					<div className='lg:w-3/5 md:w-1/2 w-full '>
-						<div className='flex items-center'>
+						<div className='flex items-center md:justify-start justify-center'>
 							<h1 className=' section_title text-[#eff2a6] title-font lg:text-5xl text-3xl mb-8 font-medium'>
 								CONNECT FOUNDATION
 							</h1>
