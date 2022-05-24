@@ -11,6 +11,7 @@ import StandAloneChains from './StandAloneChains'
 import SecuredChains from './SecuredChains'
 import Footer from '../../components/Footer'
 import { Link } from 'react-scroll'
+import ScrollToTop from '../../components/ScrollToTop'
 
 // import gsap from 'gsap'
 // import ScrollTrigger from 'gsap/ScrollTrigger'
@@ -119,10 +120,12 @@ const Index = () => {
           duration={800}
         ></Link>
       </div>
+      
       <Nero />
       <div className=" bg-shep">
         <WhatIsConnect />
         <WhatIsAnEVM />
+        <ScrollToTop/>
       </div>
       <Vision />
       <div className=" bg-shep">

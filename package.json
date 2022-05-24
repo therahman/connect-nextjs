@@ -16,6 +16,7 @@
     "react-dom": "18.1.0",
     "react-scroll": "^1.8.7",
     "react-scroll-motion": "^0.2.6",
+    "react-use": "^17.4.0",
     "sass": "^1.51.0"
   },
   "devDependencies": {
